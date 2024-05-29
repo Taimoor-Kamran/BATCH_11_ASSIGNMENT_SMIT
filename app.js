@@ -20,7 +20,14 @@ var assignement = [
         link: "https://6653c982165fa1f5d6e85098--dapper-daffodil-b4c48a.netlify.app/",
         date: "15-May-2024",
         description: "Eid-ul-Azha Count Down Timer"
-    }
+    },
+    {
+      title: "Quill Text Editor",
+      code: "https://github.com/Taimoor-Kamran/Sir-Uzair-Js-Assignment/tree/main/Quill%20Text%20Editor",
+      link: "https://66567cc7bdcd1117764fd7ec--fascinating-sorbet-d4f3dd.netlify.app/",
+      date: "17-May-2024",
+      description: "Quill Text Edit your Text"
+  }
     
 ] 
 
@@ -33,7 +40,7 @@ for(var i = 0; i < assignement.length; i++){
         <h1 class="title-font text-lg font-medium text-gray-900 mb-3">${assignement[i].title}</h1>
         <p class="leading-relaxed mb-3">${assignement[i].description}</p>
         <div class="flex items-center flex-wrap ">
-          <a href="${assignement[i].link}" class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Learn More
+          <a href="${assignement[i].link}" class="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0">Check Production
             <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
               <path d="M5 12h14"></path>
               <path d="M12 5l7 7-7 7"></path>
